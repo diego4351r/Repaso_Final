@@ -1,0 +1,12 @@
+h1{
+  color: lightskyblue;
+
+}
+
+table{
+  table-layout: fixed;
+  width: 50%;
+  text-align: center;
+  border-spacing: 20px;
+}
+
