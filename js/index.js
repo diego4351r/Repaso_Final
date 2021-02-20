@@ -10,7 +10,7 @@ document.addEventListener('submit', (ev) => {
     .then(res => {
 
       
-
+      // if (res === ('23000'){
       if (res.includes('1062')){
         window.open('http://localhost/Repaso_Final/html/mensaje.html?error')
       } else {
