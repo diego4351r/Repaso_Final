@@ -8,7 +8,10 @@ document.addEventListener('submit', (ev) => {
     .then(res => res.ok ? Promise.resolve(res) : Promise.reject(res))
     .then(res => res.json())
     .then(res => {
-      if (res === '?error'){
+
+      
+
+      if (res.includes('1062')){
         window.open('http://localhost/Repaso_Final/html/mensaje.html?error')
       } else {
         window.open('http://localhost/Repaso_Final/html/mensaje.html')

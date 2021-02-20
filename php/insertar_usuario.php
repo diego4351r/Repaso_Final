@@ -49,7 +49,8 @@ if(isset($_POST["dni"]) && isset($_POST["nombre"]) && isset($_POST["apellidos"])
       // echo 'Message: '.$e->getMessage();
       // echo '</pre>';
 
-      echo json_encode("error");
+      echo json_encode($e->getMessage());
+      // echo json_encode("error");
 
     } finally 
   {
